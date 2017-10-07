@@ -25,6 +25,7 @@ CIFAR-10/
     README.md
     setup.py
     logistic_regression.py
+    one_vs_all_LR.py
     datasets/
     algorithms/
         data_utils.py
