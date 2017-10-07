@@ -6,8 +6,7 @@ This project tests the accuracies of several Machine Learning models on the CIFA
 
 * Logistic Regression (Binary Classification)
 * One-vs-All Logistic Regression (Multiclass Classification)
-* SVM Classification
-* Softmax Classification
+* Softmax Classification (Multiclass Classification)
 
 ## CIFAR-10 Dataset
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. 
@@ -26,6 +25,7 @@ CIFAR-10/
     setup.py
     logistic_regression.py
     one_vs_all_LR.py
+    softmax_regression.py
     datasets/
     algorithms/
         data_utils.py
